@@ -1,39 +1,39 @@
 import React from "react";
 import "./project.css";
-import portfolioIMG from "../../assets/portfolioIMG.png";
-import DashBord from "../../assets/DashBord.png";
-import taskManager from "../../assets/taskManager.png";
+import Nursery from "../../assets/nursery.jpg";
+import Clinic from "../../assets/clinic.jpg";
+import jobFinder from "../../assets/jobFinder.jpg";
 
 const Project = () => {
   const projects = [
     {
-      title: "My Portfolio",
-      image: portfolioIMG,
-      demo: "https://yahya-namir.netlify.app",
-      repo: "https://github.com/YahyaNamir/yahya-namir-potfolio",
-      description: "Interactive portfolio built with React.js.",
+      title: "Job Finder",
+      image: jobFinder,
+      demo: "https://github.com/hariti-asm/jobfinder",
+      repo: "https://github.com/hariti-asm/jobfinder",
+      description: "Interactive Recruitement Plateform Built with Laravel && Vue.js.",
     },
     {
-      title: "Dashboard",
-      image: DashBord,
-      demo: "https://yahya-dashbord.netlify.app/",
-      repo: "https://github.com/YahyaNamir/yahya-dashbord-social-media",
+      title: "Clini-Connect",
+      image: Clinic,
+      demo: "https://github.com/hariti-asm/CliniConnect",
+      repo: "https://github.com/hariti-asm/CliniConnect",
       description:
-        "Comprehensive dashboard app using React.js for social media management.",
+        "Comprehensive Clinic Management using Laravel && Tailwind CSS",
     },
     {
-      title: "Task Manager",
-      image: taskManager,
-      demo: "https://yahya-task-manager.netlify.app/",
-      repo: "https://github.com/YahyaNamir/myTaskManager",
-      description: "Task management app with Redux and Tailwind CSS.",
+      title: "Nursery",
+      image: Nursery,
+      demo: "https://github.com/hariti-asm/NurseryV3",
+      repo: "https://github.com/hariti-asm/NurseryV3",
+      description: "Nursery Management app with PHP and Tailwind CSS.",
     },
   ];
 
   return (
     <section className="projects section" id="projects">
       <h2 className="section__title">Projects</h2>
-      <span className="section__subtitle">A selection of my range</span>
+      <span className="section__subtitle">A selection of my top range</span>
 
       <div className="projects__container container grid">
         {projects.map((project, index) => (

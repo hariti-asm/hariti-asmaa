@@ -1,202 +1,3 @@
-// import React, { useState } from "react";
-// import "./qualification.css";
-// const Qualification = () => {
-//   const [toggleState, setToggleState] = useState(1);
-
-//   const toggleTab = (i) => {
-//     setToggleState(i);
-//   };
-//   return (
-//     <section className="qualification section" id="portfolio">
-//       <h2 className="section__title">Qualification</h2>
-//       <span className="section__subtitle">My personal journey</span>
-
-//       <div className="qualification__container container">
-//         <div className="qualification__tabs">
-//           <div
-//             className={
-//               toggleState === 1
-//                 ? "qualification__button qualification__active button--flex"
-//                 : "qualification__button button--flex"
-//             }
-//             onClick={() => toggleTab(1)}
-//           >
-//             <i className="uil uil-graduation-cap qualification__icon"></i>
-//             Education
-//           </div>
-
-//           <div
-//             className={
-//               toggleState === 2
-//                 ? "qualification__button qualification__active button--flex"
-//                 : "qualification__button button--flex"
-//             }
-//             onClick={() => toggleTab(2)}
-//           >
-//             <i className="uil uil-briefcase-alt qualification__icon"></i>
-//             Experience
-//           </div>
-//         </div>
-
-//         <div className="qualification__sections">
-//           {/* ############################################ */}
-//           <div
-//             className={
-//               toggleState === 1
-//                 ? "qualification__content qualification__content-active"
-//                 : "qualification__content"
-//             }
-//           >
-//             {/*____________________ */}
-//             <div className="qualification__data">
-//               <div>
-//                 <h3 className="qualification__title">Web Design</h3>
-//                 <span className="qualification__subtitle">
-//                   Maroc - Institute
-//                 </span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//             </div>
-//             {/*____________________ */}
-//             <div className="qualification__data">
-//               <div></div>
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//               <div>
-//                 <h3 className="qualification__title">Art Director</h3>
-//                 <span className="qualification__subtitle">
-//                   Maroc - Institute
-//                 </span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-//             </div>
-//             {/*___________________________________________________________ */}
-//             {/*____________________ */}
-//             <div className="qualification__data">
-//               <div>
-//                 <h3 className="qualification__title">Web Development</h3>
-//                 <span className="qualification__subtitle">
-//                   Maroc - Institute
-//                 </span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//             </div>
-//             {/* ____________________ */}
-//             <div className="qualification__data">
-//               <div></div>
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//               <div>
-//                 <h3 className="qualification__title">UX Expert</h3>
-//                 <span className="qualification__subtitle">
-//                   Maroc - Institute
-//                 </span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* ############################################ */}
-//           <div
-//             className={
-//               toggleState === 2
-//                 ? "qualification__content qualification__content-active"
-//                 : "qualification__content"
-//             }
-//           >
-//             {/*____________________ */}
-//             <div className="qualification__data">
-//               <div>
-//                 <h3 className="qualification__title">Product Design</h3>
-//                 <span className="qualification__subtitle">
-//                   Microsoft - OFPPT
-//                 </span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//             </div>
-//             {/*____________________ */}
-//             <div className="qualification__data">
-//               <div></div>
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//               <div>
-//                 <h3 className="qualification__title">UX Designer</h3>
-//                 <span className="qualification__subtitle">
-//                   Apple Inc - OFPPT
-//                 </span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-//             </div>
-//             {/*___________________________________________________________ */}
-//             {/*____________________ */}
-//             <div className="qualification__data">
-//               <div>
-//                 <h3 className="qualification__title">Web Designer</h3>
-//                 <span className="qualification__subtitle">Figma - OFPPT</span>
-//                 <div className="qualification__calender">
-//                   <i className="uil uil-calendar-alt"></i>
-//                   2023 - Present
-//                 </div>
-//               </div>
-
-//               <div>
-//                 <span className="qualification__rounder"></span>
-//                 <span className="qualification__line"></span>
-//               </div>
-//             </div>
-//             {/* ____________________ */}
-//           </div>
-
-//           {/* ############################################ */}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Qualification;
-
-//! ___________________________________________________________
-//! ___________________________________________________________
 
 import React, { useState } from "react";
 import "./qualification.css";
@@ -246,15 +47,13 @@ const Qualification = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">
-                    Diploma in Digital Development
-                  </h3>
+              Software Engineer.</h3>
                   <span className="qualification__subtitle">
-                    Specialized Institute Of Applied Technology NTIC -
-                    Casablanca
+                  Alx_Africa(Online). 
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    2022 - 2024
+                    2023 - 2024
                   </div>
                 </div>
                 <div>
@@ -271,15 +70,31 @@ const Qualification = () => {
                 </div>
                 <div>
                   <h3 className="qualification__title">
-                    Baccalauréat International en Sciences Physiques
-                  </h3>
+                  Full Stack Developer.                </h3>
                   <span className="qualification__subtitle">
-                    Lycce Atlass - Casablanca
+                 YouCode (Bootcamp) Safi, Speciality in web dev. 
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    2022
+                    2023-2025
                   </div>
+                </div>
+              </div>
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">
+               Bachelor Degree.</h3>
+                  <span className="qualification__subtitle">
+                  Faculty Of Science && Technics Settat Speciality. 
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt"></i>
+                    2019 - 2023
+                  </div>
+                </div>
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
                 </div>
               </div>
             </div>
@@ -290,12 +105,11 @@ const Qualification = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">
-                    Portfolio Web Personnel{" "}
+                  recruiting Plateform{" "}
                   </h3>
                   <span className="qualification__subtitle">
-                    Designing and developing an interactive and responsive web
-                    portfolio to showcase my skills, projects, and professional
-                    experiences in an engaging and accessible manner.
+
+                  Creating an interactive and responsive web platform to streamline recruitment and job searching, infused with my unique touch (powered by OpenAI)
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
@@ -315,29 +129,28 @@ const Qualification = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualification__title">Task Manager</h3>
+                  <h3 className="qualification__title">Nursery Management</h3>
                   <span className="qualification__subtitle">
-                    React app with Redux and Tailwind CSS for streamlined task
-                    management. Boost productivity with smooth state handling
-                    and sleek design.
+                   
+                 Crafting a PHP application with Tailwind CSS for efficient nursery management, combining design and code prowess for an e-commerce website.
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    2024 - Present
+                    2023
                   </div>
                 </div>
               </div>
 
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Dashboard</h3>
+                  <h3 className="qualification__title">Clinic Management</h3>
                   <span className="qualification__subtitle">
-                    Building a comprehensive dashboard application with React.js
-                    for social media management purposes.
+                    Building a comprehensive clinic application with Lravel and Tailwind CSS
+                    for patients and doctors to make the process with an easy manner.
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    2024 - Present
+                    2024 
                   </div>
                 </div>
                 <div>

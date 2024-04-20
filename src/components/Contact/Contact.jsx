@@ -35,10 +35,10 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">yahyanamir5@gmail.com</span>
+              <span className="contact__card-data">haritiasmae@gmail.com</span>
 
               <a
-                href="mailto:yahyanamir5@gmail.com"
+                href="mailto:haritiasmae@gmail.com"
                 className="contact__button"
               >
                 Write me
@@ -51,12 +51,12 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">WhatsApp</h3>
-              <span className="contact__card-data">+212 688-609204</span>
+              <span className="contact__card-data">+212 663-470466</span>
 
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://wa.me/212688609204?text=Hello YAHYA!"
+                href="https://wa.me/212 663-470466?text=Hello ASMAA!"
                 className="contact__button"
               >
                 Write me
@@ -68,12 +68,12 @@ const Contact = () => {
               <i className="bx bxl-linkedin contact__card-icon"></i>
 
               <h3 className="contact__card-title">LinkedIn</h3>
-              <span className="contact__card-data">Yahya Namir</span>
+              <span className="contact__card-data">asmae hariti</span>
 
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/yahya-namir-25776126a/"
+                href="https://www.linkedin.com/in/asmae-hariti-015b3a266/"
                 className="contact__button"
               >
                 Write me

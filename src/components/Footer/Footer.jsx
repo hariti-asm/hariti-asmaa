@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">YAHYA NAMIR </h1>
+        <h1 className="footer__title">HARITI ASMAA </h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.linkedin.com/in/yahya-namir-25776126a/"
+            href="https://www.linkedin.com/in/asmae-hariti-015b3a266/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/YahyaNamir"
+            href="https://github.com/hariti-asm/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/yeehyaa_01?igsh=MTQ1OHNwdTk5bDhmcQ=="
+            href="https://www.instagram.com/haritiasma/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
