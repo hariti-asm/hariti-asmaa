@@ -1,6 +1,6 @@
 import React from "react";
 import "./project.css";
-import Nursery from "../../assets/nursery.jpg";
+import Nursery from "../../assets/e2.jpg";
 import Clinic from "../../assets/clinic.jpg";
 import jobFinder from "../../assets/jobFinder.jpg";
 
@@ -22,18 +22,18 @@ const Project = () => {
         "Comprehensive Clinic Management using Laravel && Tailwind CSS",
     },
     {
-      title: "Nursery",
+      title: "Evento",
       image: Nursery,
-      demo: "https://github.com/hariti-asm/NurseryV3",
-      repo: "https://github.com/hariti-asm/NurseryV3",
-      description: "Nursery Management app with PHP and Tailwind CSS.",
+      demo: "https://github.com/hariti-asm/Evento",
+      repo: "https://github.com/hariti-asm/Evento",
+      description: "Events Reservation app with Laravel and Tailwind CSS.",
     },
   ];
 
   return (
     <section className="projects section" id="projects">
       <h2 className="section__title">Projects</h2>
-      <span className="section__subtitle">A selection of my top range</span>
+      <span className="section__subtitle">A selection of my range</span>
 
       <div className="projects__container container grid">
         {projects.map((project, index) => (
