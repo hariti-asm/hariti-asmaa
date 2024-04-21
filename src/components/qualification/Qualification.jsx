@@ -85,7 +85,7 @@ const Qualification = () => {
                   <h3 className="qualification__title">
                Bachelor Degree.</h3>
                   <span className="qualification__subtitle">
-                  Faculty Of Science && Technics Settat Speciality. 
+                  Faculty Of Science && Technics Settat Speciality in Computer Science. 
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
