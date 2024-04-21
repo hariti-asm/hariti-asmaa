@@ -132,7 +132,7 @@ const Qualification = () => {
                   <h3 className="qualification__title">Events Reservation</h3>
                   <span className="qualification__subtitle">
                    
-                 Crafting a Laravel application with Tailwind CSS for efficient reservation system management(for clients,organizers and admin), combining design and code prowess for an easy website.
+                 Crafting a Laravel application with Tailwind CSS for efficient reservation system (for clients,organizers and admin), combining design and code prowess for an easy website.
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
