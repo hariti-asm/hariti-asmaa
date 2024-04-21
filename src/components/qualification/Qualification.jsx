@@ -129,10 +129,10 @@ const Qualification = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualification__title">Nursery Management</h3>
+                  <h3 className="qualification__title">Events Reservation</h3>
                   <span className="qualification__subtitle">
                    
-                 Crafting a PHP application with Tailwind CSS for efficient nursery management, combining design and code prowess for an e-commerce website.
+                 Crafting a Laravel application with Tailwind CSS for efficient reservation system management(for clients,organizers and admin), combining design and code prowess for an easy website.
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
