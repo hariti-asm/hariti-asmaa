@@ -9,8 +9,8 @@ const Project = () => {
     {
       title: "Job Finder",
       image: jobFinder,
-      demo: "https://github.com/hariti-asm/jobfinder",
-      repo: "https://github.com/hariti-asm/jobfinder",
+      demo: "https://github.com/hariti-asm/videoJob",
+      repo: "https://github.com/hariti-asm/videoJob",
       description: "Interactive Recruitement Plateform Built with Laravel && Vue.js.",
     },
     {
